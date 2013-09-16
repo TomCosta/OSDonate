@@ -2,7 +2,7 @@
 /*
 * @package OSDonate Module 1.0.0 for Joomla 1.6 and 1.5 from OSTraining.com
 * Credit to VeroPlus.com for much of the code and inspiration
-* @copyright (C) 2010 VeroPlus.com Copyright (C) 2011 OsTraining.com. All rights reserved.
+* @copyright Copyright (C) 2010 VeroPlus.com (C) 2011 OsTraining.com. All rights reserved.
 * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL, see license.txt
 * Joomla! is free software.
 * This extension is available for Joomla! 1.6 and 1.5;
@@ -95,15 +95,16 @@
 	$fontColor = $params->get('font_color');
 	
 	$webLink = $params->get('weblink');
+	
 	$affiliateID = $params->get('affiliate_id');
 	
 	$affilateLink = '';
 	if ($params->get('show_powered_by')) {
 		$affilateLink .= "http://www.ostraining.com/idevaffiliate/idevaffiliate.php?id=" . $affiliateID ;
 	}
-
-	$widthOfModule = $params->get('width_of_sticky_hover');
 	
+	$widthOfModule = $params->get('width_of_sticky_hover');
+
 	$use_sticky_hover = $params->get('use_sticky_hover');
 	$horizontal_reference_side = $params->get('horizontal_reference_side');
 	$horizontal_distance = $params->get('horizontal_distance');
