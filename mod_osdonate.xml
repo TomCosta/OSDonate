@@ -3,11 +3,11 @@
 	<name>OSDonate</name>
 	<author>Nick Savov from OsTraining.com</author>
 	<creationDate>January 2011</creationDate>
-	<copyright>(C) 2011 OsTraining.com</copyright>
+	<copyright>(C) 2011 OSTraining.com</copyright>
 	<license>GNU/GPL http://www.gnu.org/copyleft/gpl.html</license>
 	<authorEmail>nick@ostraining.com</authorEmail>
 	<authorUrl>http://www.ostraining.com</authorUrl>
-	<version>1.0.1</version>
+	<version>1.1.1</version>
 	<description>PLUGIN DESC</description>
 	
 	<languages>
@@ -86,18 +86,6 @@
 		<param name="font_color" type="text" size="16" default="" label="FONT COLOR LABEL" description="FONT COLOR DESC" />
 		
 		<param name="width_of_sticky_hover" type="text" size="5" default="200" label="WIDTH LABEL" description="WIDTH DESCRIPTION" />
-		
-		<param name="@spacer" type="spacer" default=" " label=" " description=" " />
-		<param name="@spacer" type="spacer" default="OSTRAINING AFFILIATE PROGRAM" label="OSDonate" description="OS SPACER DESC" />
-		<param name="@spacer" type="spacer" default="http://www.ostraining.com/idevaffiliate/" label="OSDonate" description="OS SPACER DESC" />
-		<param name="@spacer" type="spacer" default="AFFILIATE SHORT EXPLANATION" label="OSDonate" description="OS SPACER DESC" />
-		<param name="@spacer" type="spacer" default=" " label=" " description=" " />
-		<param name="show_powered_by" type="radio" default="1" label="SHOW POWERED BY LABEL" description="SHOW POWERED BY DESC">
-			<option value="1">YES</option>
-			<option value="0">N0</option>
-		</param>
-		<param name="affiliate_id" type="text" size="5" default="" label="Affiliate ID #" description="AFFILIATE ID DESC" />
-		<param name="weblink" type="text" size="32" default="" label="WEBLINK LABEL" description="WEBLINK LABEL DESC" />
 	</params>
     
 
